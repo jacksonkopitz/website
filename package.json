@@ -21,6 +21,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,5 +49,6 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
     "postcss": "^8.4.12"
-  }
+  },
+  "homepage": "https://jacksonkopitz.com"
 }
