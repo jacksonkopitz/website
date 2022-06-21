@@ -1,5 +1,4 @@
 import React from "react";
-import UkraineButton from "./common/UkraineButton";
 import "../App.css";
 import { Font, FontSize, TextColor } from "../utils/constants";
 import Text from "./common/text";
@@ -23,7 +22,7 @@ export const Main: React.FC<MainProps> = () => {
         setIsCopied(true);
         setTimeout(() => {
           setIsCopied(false);
-        }, 3000);
+        }, 2000);
       })
       .catch((err) => {
         console.log(err);
