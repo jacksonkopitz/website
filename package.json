@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.12"
   },
   "homepage": "https://jacksonkopitz.com/"
