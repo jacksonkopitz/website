@@ -13,7 +13,7 @@ const UkraineButton: React.FC<UkraineButtonProps> = () => {
         rel="noreferrer"
       >
         <Text
-          text={"Help Ukraine 🇺🇦"}
+          text={"Support Ukraine 🇺🇦"}
           font={Font.POPPINS}
           fontSize={FontSize.BASE}
           color={TextColor.BLACK}
