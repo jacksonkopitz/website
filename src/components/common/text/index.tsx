@@ -11,7 +11,7 @@ export const Text: React.FC<TextProps> = ({
   text,
   font,
   fontSize = FontSize.BASE,
-  color = TextColor.WHITE,
+  color = TextColor.BLACK,
 }) => {
   const style = `tw-font-${font} tw-text-${color} tw-text-${fontSize} tw-tracking-wide`;
   return <span className={style}>{text}</span>;
