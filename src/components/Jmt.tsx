@@ -100,7 +100,7 @@ const schedule = [
   },
   {
     date: "2022-08-02",
-    location: "Marie lake (this day we restock out food!)",
+    location: "Marie lake (this day we restock our food!)",
   },
   {
     date: "2022-08-03",
