@@ -41,13 +41,13 @@ const data = [
     contacts: [
       {
         name: "Greg Bartlett",
-        email: "",
-        phone: "",
+        email: "me@gregbartlett.com",
+        phone: "310 345 7815",
       },
       {
         name: "Melanie Bartlett",
-        email: "",
-        phone: "",
+        email: "melbartlett@gmail.com",
+        phone: "310 678 6180",
       },
     ],
   },
@@ -164,9 +164,9 @@ export const Jmt: React.FC<JmtProps> = () => {
 
       <div className="tw-pt-8 tw-w-96">
         We are hiking south to north. We begin south of the jmt at the
-        cottonwood lakes trailhead, and hike 21 miles to meet up with the jmt,
-        which is about 8 miles from the southern terminus of the trail. We will
-        hike south to summit{" "}
+        cottonwood lakes trailhead outside of Lone Pine, CA, and hike 21 miles
+        to meet up with the jmt, about 8 miles from the southern terminus of the
+        trail. We will hike south to summit{" "}
         <a
           className="tw-text-purpleBlue-600"
           href="https://en.wikipedia.org/wiki/Mount_Whitney"
