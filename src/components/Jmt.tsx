@@ -25,14 +25,14 @@ const data = [
     hiker: "Mari Nunan",
     contacts: [
       {
-        name: "Eve Nunan",
-        email: "",
-        phone: "",
+        name: "Eve Ahlers",
+        email: "310 809 9709",
+        phone: "eve.ahlers@gmail.com",
       },
       {
         name: "Bill Nunan",
-        email: "",
-        phone: "",
+        email: "310 427 5928",
+        phone: "bill_nunan@alum.mit.edu",
       },
     ],
   },
