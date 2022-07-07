@@ -168,7 +168,7 @@ export const Jmt: React.FC<JmtProps> = () => {
         to meet up with the jmt, about 8 miles from the southern terminus of the
         trail. We will hike south to summit{" "}
         <a
-          className="tw-text-purpleBlue-600"
+          className="tw-text-purpleBlue-400"
           href="https://en.wikipedia.org/wiki/Mount_Whitney"
         >
           Mt. Whitney
@@ -178,7 +178,40 @@ export const Jmt: React.FC<JmtProps> = () => {
         over 20 days.{" "}
       </div>
 
+      <div className="tw-pt-8 tw-w-96">
+        We sent two buckets of food to{" "}
+        <a
+          className="tw-text-purpleBlue-400"
+          href="https://muirtrailranch.com/jmt-pct-hiker-resupply/"
+        >
+          Muir Trail Ranch
+        </a>{" "}
+        (totaling 69,000 calories) to resupply our food about halfway through
+        the hike. The tracking numbers are
+        <div>
+          <a
+            className="tw-text-purpleBlue-400"
+            href="https://tools.usps.com/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels=9505513805982188572706%2C&tABt=false"
+          >
+            9505 5138 0598 2188 5727 06
+          </a>
+        </div>{" "}
+        and{" "}
+        <div>
+          <a
+            className="tw-text-purpleBlue-400"
+            href="https://tools.usps.com/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels=9505513805982188572713%2C&tABt=true"
+          >
+            9505 5138 0598 2188 5727 13
+          </a>
+        </div>
+      </div>
+
       <div className="tw-pt-8">
+        <div className="tw-font-bold">
+          Update: We are starting on July 19 now instead of July 23, so all
+          dates are ahead by 4 days
+        </div>
         <div>Approximate schedule (locations are end of day):</div>
         <div className="tw-pl-4">
           {schedule.map((day) => {
