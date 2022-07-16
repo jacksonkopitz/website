@@ -55,83 +55,83 @@ const data = [
 
 const schedule = [
   {
-    date: "2022-07-22",
+    date: "2022-07-18",
     location: "Cottonwood pass trailhead campground",
   },
   {
-    date: "2022-07-23",
+    date: "2022-07-19",
     location: "Rock Creek",
   },
   {
-    date: "2022-07-24",
+    date: "2022-07-20",
     location: "Guitar lake",
   },
   {
-    date: "2022-07-25",
+    date: "2022-07-21",
     location: "Crabtree",
   },
   {
-    date: "2022-07-26",
+    date: "2022-07-22",
     location: "Tyndall creek",
   },
   {
-    date: "2022-07-27",
+    date: "2022-07-23",
     location: "Bullfrog lake trail / kearsarge lakes",
   },
   {
-    date: "2022-07-28",
+    date: "2022-07-24",
     location: "Woods creek",
   },
   {
-    date: "2022-07-29",
+    date: "2022-07-25",
     location: "South fork kings river / upper basin",
   },
   {
-    date: "2022-07-30",
+    date: "2022-07-26",
     location: "Grouse meadow / palisade basin",
   },
   {
-    date: "2022-07-31",
+    date: "2022-07-27",
     location: "Sapphire lake / evolution basin",
   },
   {
-    date: "2022-08-01",
+    date: "2022-07-28",
     location: "Piute pass trail / goddard",
   },
   {
-    date: "2022-08-02",
+    date: "2022-07-29",
     location: "Marie lake (this day we restock our food!)",
   },
   {
-    date: "2022-08-03",
+    date: "2022-07-30",
     location: "Lake edison trail / quail meadown",
   },
   {
-    date: "2022-08-04",
+    date: "2022-07-31",
     location: "Fish creek trail / tully hole",
   },
   {
-    date: "2022-08-05",
+    date: "2022-08-01",
     location: "Deer Creek",
   },
   {
-    date: "2022-08-06",
+    date: "2022-08-02",
     location: "Trinity lakes",
   },
   {
-    date: "2022-08-07",
+    date: "2022-08-03",
     location: "Rush creek trail / marie meadows",
   },
   {
-    date: "2022-08-08",
+    date: "2022-08-04",
     location: "Evelyn lake trail / lyell canyon (Yosemite)",
   },
   {
-    date: "2022-08-09",
+    date: "2022-08-05",
     location: "Cathedral lakes / sunrise lakes (Yosemite)",
   },
   {
-    date: "2022-08-10",
+    date: "2022-08-06",
     location: "Los Angeles",
   },
 ];
@@ -162,7 +162,7 @@ export const Jmt: React.FC<JmtProps> = () => {
         </a>
       </div>
 
-      <div className="tw-pt-8 tw-w-96">
+      <div className="tw-pt-8 tw-w-72">
         We are hiking south to north. We begin south of the jmt at the
         cottonwood lakes trailhead outside of Lone Pine, CA, and hike 21 miles
         to meet up with the jmt, about 8 miles from the southern terminus of the
@@ -178,7 +178,7 @@ export const Jmt: React.FC<JmtProps> = () => {
         over 20 days.{" "}
       </div>
 
-      <div className="tw-pt-8 tw-w-96">
+      <div className="tw-pt-8 tw-w-72">
         We sent two buckets of food to{" "}
         <a
           className="tw-text-purpleBlue-400"
@@ -207,11 +207,21 @@ export const Jmt: React.FC<JmtProps> = () => {
         </div>
       </div>
 
-      <div className="tw-pt-8">
-        <div className="tw-font-bold">
-          Update: We are starting on July 19 now instead of July 23, so all
-          dates are ahead by 4 days
+      <div className="tw-w-72 tw-pt-8">
+        <div>
+          Follow us on a map{" "}
+          <a
+            className="tw-text-purpleBlue-400"
+            href="https://share.garmin.com/JMLhiketheJMT"
+          >
+            here
+          </a>
+          ! From the map, you have the option to send us a message. I will be
+          charged for each one so it should be used sparingly.
         </div>
+      </div>
+
+      <div className="tw-pt-8">
         <div>Approximate schedule (locations are end of day):</div>
         <div className="tw-pl-4">
           {schedule.map((day) => {
