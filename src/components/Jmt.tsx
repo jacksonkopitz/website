@@ -226,15 +226,16 @@ export const Jmt: React.FC<JmtProps> = () => {
           dot. I will try to add a waypoint each night where we are sleeping,
           which should show up as a flag.
         </div>
-        {/* <div>Lea's mapshare link 
+        <div className="tw-pt-4">
+          Lea's mapshare link is{" "}
           <a
             className="tw-text-purpleBlue-400"
             href="https://share.garmin.com/bartlett"
           >
             here
           </a>
-          . Password is idk
-        </div> */}
+          . Password is leajmt. Do not message Lea.
+        </div>
       </div>
 
       <div className="tw-pt-8">
