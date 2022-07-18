@@ -164,8 +164,8 @@ export const Jmt: React.FC<JmtProps> = () => {
 
       <div className="tw-pt-8 tw-w-72">
         We are hiking south to north. We begin south of the jmt at the
-        cottonwood lakes trailhead outside of Lone Pine, CA, and hike 21 miles
-        to meet up with the jmt, about 8 miles from the southern terminus of the
+        cottonwood pass trailhead outside of Lone Pine, CA, and hike 21 miles to
+        meet up with the jmt, about 8 miles from the southern terminus of the
         trail. We will hike south to summit{" "}
         <a
           className="tw-text-purpleBlue-400"
@@ -205,6 +205,7 @@ export const Jmt: React.FC<JmtProps> = () => {
             9505 5138 0598 2188 5727 13
           </a>
         </div>
+        (The food has arrived)
       </div>
 
       <div className="tw-w-72 tw-pt-8">
@@ -217,8 +218,23 @@ export const Jmt: React.FC<JmtProps> = () => {
             here
           </a>
           ! From the map, you have the option to send us a message. I will be
-          charged for each one so it should be used sparingly.
+          charged for each one so please don't spam. When you first load the
+          map, it may show a recent trip in sequoia national park. If so, zoom
+          out and you will see the long vertical red route- that is the JMT. I
+          plan to send my location every 4 hours (not during the night, my
+          garmin will be turned off at night), which should show up as a blue
+          dot. I will try to add a waypoint each night where we are sleeping,
+          which should show up as a flag.
         </div>
+        {/* <div>Lea's mapshare link 
+          <a
+            className="tw-text-purpleBlue-400"
+            href="https://share.garmin.com/bartlett"
+          >
+            here
+          </a>
+          . Password is idk
+        </div> */}
       </div>
 
       <div className="tw-pt-8">
