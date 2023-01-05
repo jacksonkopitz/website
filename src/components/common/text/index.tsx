@@ -1,4 +1,9 @@
-import { Font, FontSize, TextColor } from "../../../utils/constants";
+import {
+  Font,
+  FontSize,
+  MobileFontSize,
+  TextColor,
+} from "../../../utils/constants";
 
 interface TextProps {
   text: string;
@@ -7,13 +12,25 @@ interface TextProps {
   color?: TextColor;
 }
 
+const FontSizeToMobileFontSize = {
+  [FontSize.BASE]: MobileFontSize.XS,
+  [FontSize.LARGE]: MobileFontSize.BASE,
+  [FontSize.XL]: MobileFontSize.LARGE,
+  [FontSize.XL2]: MobileFontSize.XL,
+  [FontSize.XL3]: MobileFontSize.XL2,
+  [FontSize.XL4]: MobileFontSize.XL3,
+  [FontSize.XL8]: MobileFontSize.XL4,
+};
+
 export const Text: React.FC<TextProps> = ({
   text,
   font,
   fontSize = FontSize.BASE,
   color = TextColor.BLACK,
 }) => {
-  const style = `tw-font-${font} tw-text-${color} tw-text-${fontSize} tw-tracking-wide`;
+  const fontSizeForDevice = `tw-text-${FontSizeToMobileFontSize[fontSize]} sm:tw-text-${fontSize}`;
+  const trackingDevice = `tw-tracking-wide sm:tw-tracking-wide`;
+  const style = `${fontSizeForDevice} ${trackingDevice} tw-font-${font} tw-text-${color} `;
   return <span className={style}>{text}</span>;
 };
 

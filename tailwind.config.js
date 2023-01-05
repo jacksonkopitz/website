@@ -290,6 +290,8 @@ module.exports = {
         poppins: ["Poppins"],
         poppinsSemibold: ["Poppins-Semibold"],
         poppinsBold: ["Poppins-Bold"],
+        arvo: ["Arvo-Regular"],
+        arvoBold: ["Arvo-Bold"],
       },
       width: {
         302: "302px",
@@ -301,9 +303,4 @@ module.exports = {
       },
     },
   },
-  // variants: {
-  //   extend: {
-  //     opacity: ["disabled"],
-  //   },
-  // },
 };

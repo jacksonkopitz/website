@@ -30,42 +30,60 @@ export const Main: React.FC<MainProps> = () => {
   };
 
   return (
-    <div className="tw-pb-16 tw-pt-44 tw-flex tw-flex-col tw-text-center">
-      <div className="tw-py-2">
-        <Text
-          text={"Jackson Kopitz"}
-          font={Font.POPPINS}
-          fontSize={FontSize.XL4}
-          color={TextColor.BLACK}
-        />
-      </div>
-
-      <div className="tw-flex tw-flex-col tw-text-center">
-        <div>
-          <a
-            href="https://www.linkedin.com/in/jacksonkopitz/"
-            target="_blank"
-            rel="noreferrer"
-            className="tw-px-2"
-          >
-            <Text
-              text={"LinkedIn"}
-              font={Font.POPPINS}
-              fontSize={FontSize.BASE}
-              color={TextColor.BLACK}
-            />
-          </a>
+    <div className="tw-pl-8 tw-pt-24 tw-flex tw-flex-col sm:tw-pl-32">
+      <div className="tw-w-72">
+        <div className={"tw-pb-1"}>
+          <Text
+            text={"Jackson Kopitz"}
+            font={Font.ARVO_BOLD}
+            fontSize={FontSize.XL3}
+            color={TextColor.BLACK}
+          />
         </div>
 
-        <div>
-          <span onClick={handleCopyClick} className="tw-cursor-pointer">
-            <Text
-              text={isCopied ? "Copied!" : "Email"}
-              font={Font.POPPINS}
-              fontSize={FontSize.BASE}
-              color={TextColor.BLACK}
-            />
-          </span>
+        <div className="tw-pl-4">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/jacksonkopitz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Text
+                text={"LinkedIn"}
+                font={Font.ARVO_BOLD}
+                fontSize={FontSize.BASE}
+                color={TextColor.BLACK}
+              />
+            </a>
+          </div>
+
+          <div>
+            <span onClick={handleCopyClick} className="tw-cursor-pointer">
+              <Text
+                text={isCopied ? "Copied!" : "Email"}
+                font={Font.ARVO_BOLD}
+                fontSize={FontSize.BASE}
+                color={TextColor.BLACK}
+              />
+            </span>
+          </div>
+
+          <div>
+            <span>
+              <a
+                href="https://www.vox.com/future-perfect/22955885/donate-ukraine"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Text
+                  text={"Support Ukraine 🇺🇦"}
+                  font={Font.ARVO_BOLD}
+                  fontSize={FontSize.BASE}
+                  color={TextColor.BLACK}
+                />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
