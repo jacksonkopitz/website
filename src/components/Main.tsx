@@ -67,15 +67,6 @@ export const Main: React.FC<MainProps> = () => {
             />
           </span>
         </div>
-
-        <div>
-          <Text
-            text={"(more coming soon, maybe)"}
-            font={Font.POPPINS}
-            fontSize={FontSize.XS}
-            color={TextColor.BLACK}
-          />
-        </div>
       </div>
     </div>
   );
