@@ -8,7 +8,7 @@ export enum Font {
 
 export enum TextColor {
   WHITE = "white-50",
-  BLACK = "black",
+  BLACK = "black-500",
 }
 
 export enum MobileFontSize {
