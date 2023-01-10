@@ -5,7 +5,7 @@ interface HomeProps {}
 
 export const Home: React.FC<HomeProps> = () => {
   return (
-    <div className="tw-sticky tw-top-0">
+    <div className="tw-sticky tw-top-0 tw-bg-white-100">
       <Main />
     </div>
   );
