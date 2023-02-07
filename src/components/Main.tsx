@@ -84,6 +84,23 @@ export const Main: React.FC<MainProps> = () => {
               </a>
             </span>
           </div>
+
+          <div>
+            <span>
+              <a
+                href="https://www.nytimes.com/2023/02/06/world/europe/helping-earthquake-victims-turkey-syria.html?smid=nytcore-ios-share&referringSource=articleShare"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Text
+                  text={"Help Turkey 🇹🇷 and Syria 🇸🇾"}
+                  font={Font.ARVO_BOLD}
+                  fontSize={FontSize.BASE}
+                  color={TextColor.BLACK}
+                />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
