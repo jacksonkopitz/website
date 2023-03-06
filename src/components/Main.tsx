@@ -93,7 +93,7 @@ export const Main: React.FC<MainProps> = () => {
                 rel="noreferrer"
               >
                 <Text
-                  text={"Help Turkey 🇹🇷 and Syria 🇸🇾"}
+                  text={"Help Turkey and Syria"}
                   font={Font.ARVO_BOLD}
                   fontSize={FontSize.BASE}
                   color={TextColor.BLACK}
