@@ -5,6 +5,10 @@ import Text from "./common/text";
 
 interface MainProps {}
 
+const EMAIL = "jkopitz1@gmail.com";
+const LINKED_IN_URL = "https://www.linkedin.com/in/jackson5375/";
+const NAME = "Jackson Kopitz";
+
 export const Main: React.FC<MainProps> = () => {
   const [isCopied, setIsCopied] = React.useState(false);
 
@@ -17,7 +21,7 @@ export const Main: React.FC<MainProps> = () => {
   }
 
   const handleCopyClick = () => {
-    copyTextToClipboard("jsk363@cornell.edu")
+    copyTextToClipboard(EMAIL)
       .then(() => {
         setIsCopied(true);
         setTimeout(() => {
@@ -34,7 +38,7 @@ export const Main: React.FC<MainProps> = () => {
       <div className="tw-w-72">
         <div className={"tw-pb-1"}>
           <Text
-            text={"Jackson Kopitz"}
+            text={NAME}
             font={Font.ARVO_BOLD}
             fontSize={FontSize.XL3}
             color={TextColor.BLACK}
@@ -43,11 +47,7 @@ export const Main: React.FC<MainProps> = () => {
 
         <div className="tw-pl-4">
           <div>
-            <a
-              href="https://www.linkedin.com/in/jacksonkopitz/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={LINKED_IN_URL} target="_blank" rel="noreferrer">
               <Text
                 text={"LinkedIn"}
                 font={Font.ARVO_BOLD}
@@ -77,23 +77,6 @@ export const Main: React.FC<MainProps> = () => {
               >
                 <Text
                   text={"Support Ukraine 🇺🇦"}
-                  font={Font.ARVO_BOLD}
-                  fontSize={FontSize.BASE}
-                  color={TextColor.BLACK}
-                />
-              </a>
-            </span>
-          </div>
-
-          <div>
-            <span>
-              <a
-                href="https://www.nytimes.com/2023/02/06/world/europe/helping-earthquake-victims-turkey-syria.html?smid=nytcore-ios-share&referringSource=articleShare"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Text
-                  text={"Help Turkey and Syria"}
                   font={Font.ARVO_BOLD}
                   fontSize={FontSize.BASE}
                   color={TextColor.BLACK}
